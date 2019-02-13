@@ -3,12 +3,12 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: binblee/springboot-helm-chart
-  tag: openjdk-9-jre
+  repository: brereton/springboot-helm
+  tag: latest
   pullPolicy: IfNotPresent
 service:
   name: nginx
-  type: NodePort
+  type: LoadBalancer
   externalPort: 8080
   internalPort: 8080
 ingress:
