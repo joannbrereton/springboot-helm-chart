@@ -1,6 +1,13 @@
 # Spring Boot Application Helm Chart Example
 
+Forked from https://github.com/binblee/springboot-helm-chart 
+
+Corrected mvn surefire plugin version.
+
+
 ## Build and push docker image
+
+mvn clean package
 
 Rename ```image``` in demoweb/docker-compose.yml.
 
