@@ -14,7 +14,7 @@ Rename ```image``` in demoweb/docker-compose.yml.
 ```yaml
 build:
     context: .
-image: binblee/springboot-helm-chart
+image: brereton/springboot-helm-chart
 ```
 
 Build docker image use docker-compose command.
@@ -43,7 +43,7 @@ Rename image ```image.repository``` and ```tag``` in demoweb/charts/values.yaml.
 
 ```yaml
 image:
-  repository: binblee/springboot-helm-chart
+  repository: brereton/springboot-helm-chart
   tag: openjdk-9-jre
 ```
 
